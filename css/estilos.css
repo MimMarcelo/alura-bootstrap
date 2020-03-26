@@ -1,3 +1,17 @@
 #paineis-sobre{
     margin-top: 1em;
 }
+#titulo-depoimentos{
+    background-color: #0200FF;
+    color: #FFF;
+    padding: 1em 0;
+    margin-bottom: 0;
+}
+.colunas2{
+    width: 50%;
+    display: inline-block;;
+    vertical-align: top;
+}
+.colunas2 .radio:first-child{
+    margin-top: 0;
+}
