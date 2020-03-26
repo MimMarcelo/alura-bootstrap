@@ -1,18 +1,44 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html lang="pt-BR">
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    </head>
-    <body>
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <section class="container">
         <h2>Sobre Nós</h2>
         <img class="img-responsive" src="img/empresa.jpg" alt="Imagem da empresa">
-    </body>
+        <div class="panel-group" id="paineis-sobre">
+            <article class="panel panel-default">
+                <div class="panel-heading" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">
+                    <h3 class="panel-title">Desde 1935</h3>
+                </div>
+                <div id="primeiro-paragrafo" class="collapse in">
+                    <p class="panel-body">Desde 1935 trazendo casas, mansões e prédios lindos para o mundo.</p>
+                </div>
+            </article>
+            <article class="panel panel-default">
+                <div class="panel-heading" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">
+                    <h3 class="panel-title">Preços acessíveis</h3>
+                </div>
+                <div id="segundo-paragrafo" class="collapse">
+                    <p class="panel-body">Preços a partir de R$ 1000,00.</p>
+                </div>
+            </article>
+            <article class="panel panel-default">
+                <div class="panel-heading" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">
+                    <h3 class="panel-title">Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</h3>
+                </div>
+                <div id="terceiro-paragrafo" class="collapse">
+                    <p class="panel-body">Preços a partir de R$ 1000,00 </p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
